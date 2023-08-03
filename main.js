@@ -5,7 +5,6 @@ const COMMAND_PREFIX = "guest@zoykad-portofolio $ "
 const HELP_TEXT = `List of all commands :
  help\t\t\tThis menu
  echo [text]\tprints the given text
- carrd\t\t\tMy card portofolio
  contact\t\tSee ways to contact me and my profiles
  zoyart\t\t\t???`
 
@@ -70,15 +69,15 @@ const animate = async () => {
     await term.echo("Wonder who I am ?", {typing: true, delay:130})
     await delay(2000)
     
-    await term.echo("Well, you can call me zoy", {typing: true, delay:150})
+    await term.echo("You can call me zoy", {typing: true, delay:150})
     await delay(500)
     
-    await term.echo("Type help to get more info", {typing: true, delay:150})
+    await term.echo("Type 'help' to get more info", {typing: true, delay:150})
     await delay(500)
 
     animating = false
 }
 
-//animate()
+animate()
 
 term.set_prompt(COMMAND_PREFIX)
