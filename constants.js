@@ -12,7 +12,7 @@ export const CONTACT_TEXT = `Here are all my profiles and way to contact me : \n
 Discord :\thttps://discordapp.com/users/675031196693954606 \n \
 Roblox :\thttps://www.roblox.com/users/1097155733/profile \n \
 Github :\thttps://github.com/ZoyKad \n \
-Email :\tmaxime@zoykad.works`
+Email :\tzoykad912@gmail.com`
 
 export const ZOYKAD_ART = `
 $$$$$$$$\\                     $$\\   $$\\                 $$\\ 
